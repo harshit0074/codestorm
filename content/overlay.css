@@ -1,0 +1,35 @@
+/* EFM injected styles */
+
+.efm-hover {
+  outline: 2px dashed #555 !important;
+  outline-offset: 2px !important;
+  cursor: crosshair !important;
+}
+
+.efm-kept {
+  outline: 2px solid #111 !important;
+  outline-offset: 2px !important;
+  background: rgba(0,0,0,0.03) !important;
+}
+
+/* Reset button — always bottom left */
+#efm-reset-btn {
+  position: fixed !important;
+  bottom: 20px !important;
+  left: 20px !important;
+  z-index: 2147483647 !important;
+  background: #fff !important;
+  color: #111 !important;
+  border: 1px solid #111 !important;
+  border-radius: 3px !important;
+  padding: 7px 14px !important;
+  font-size: 11px !important;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+}
+#efm-reset-btn:hover {
+  background: #111 !important;
+  color: #fff !important;
+}
